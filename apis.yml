@@ -1,22 +1,67 @@
 aid: caffeine
 name: Caffeine
-description: Caffeine is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Caffeine was a social broadcasting and live-streaming platform founded in 2016
+  by former Apple designers Ben Keighran and Sam Roberts, and backed by
+  Andreessen Horowitz (a16z) and Greylock Partners. Built on a proprietary
+  WebRTC-based real-time video distribution network, Caffeine positioned itself
+  as a low-latency, social-first alternative to Twitch for gaming, entertainment,
+  and — in its later years — live sports, partnering with roughly 200 sports
+  organizations and reaching tens of millions of monthly users. The company
+  published open-source broadcasting tooling under its caffeinetv GitHub
+  organization (libcaffeine, caffeine-rtc, an OBS plugin, and the CaffQL GraphQL
+  code generator) but never shipped a public, documented developer API program.
+  Caffeine announced it was ceasing operations, and its web presence is now a
+  shutdown notice; this profile is retained as an a16z portfolio lead and is
+  archival rather than an active, integrable API provider.
 url: https://raw.githubusercontent.com/api-evangelist/caffeine/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - a16z
+- Greylock
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: shutdown
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Live Streaming
+- Social Broadcasting
+- Video
+- WebRTC
+- Sports
+- Gaming
+- Entertainment
+image: https://avatars.githubusercontent.com/u/18742433?s=200&v=4
 apis: []
+common:
+- type: DomainSecurity
+  url: security/caffeine-domain-security.yml
+- type: Website
+  url: https://www.caffeine.tv/
+- type: GitHubOrganization
+  url: https://github.com/caffeinetv
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
