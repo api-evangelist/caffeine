@@ -22,7 +22,7 @@ x-backed-by:
 - Greylock
 x-tier: stub
 x-tier-reason: portfolio-lead
-x-status: shutdown
+x-status: defunct
 deliveryModel:
   model: unknown
   open_source: false
@@ -57,6 +57,7 @@ tags:
 - Sports
 - Gaming
 - Entertainment
+- Defunct
 image: https://avatars.githubusercontent.com/u/18742433?s=200&v=4
 apis: []
 common:
